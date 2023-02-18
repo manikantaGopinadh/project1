@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>gallery</title>
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="../JAVA SCRIPT/gallery.js" defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image Gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullscreenimg" style="display: none;" onclick="imgv()">
+        <img id="fullimg" src="../ASSETS/IMAGES/a.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam laborum pariatur obcaecati, quia esse voluptatum dolore! Sint, non dolorum ratione unde maiores ex voluptatibus sunt voluptatum, tenetur minus nemo repellat.</p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="#">Home</a></li>
+            <li class="li" id="sublistplace">Places
+                <ul id="sublist">
+                    <li class="sli">India</li>
+                    <li class="sli">Dubai</li>
+                    <li class="sli">SriLanka</li>
+                    <li class="sli">Tailand</li>
+                    <li class="sli">Korea</li>
+                </ul>
+            </li>
+            <li class="li"><a href="#">Info</a></li>
+            <li class="li"><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    <div class="bodyofgallery">
+        <img src="../ASSETS/IMAGES/a.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/b.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/c.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/d.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/e.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/f.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/g.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+        <img src="../ASSETS/IMAGES/h.jpg" onclick="imgk(this.src,'birds are in love','birds enjoying their time with love')">
+    </div>
+</body>
+</html>
